@@ -1,0 +1,8 @@
+/.vs/*
+/.pytest_cache
+/*.pyc
+/__pycache_
+/*.sln
+mappyfile_templates.egg-info
+__pycache__
+/*.user

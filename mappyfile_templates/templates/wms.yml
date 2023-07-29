@@ -1,0 +1,32 @@
+# https://mapserver.org/ogc/wms_server.html#setup-a-mapfile-for-your-wms
+
+map:
+    name: "TODO"
+    web:
+        __type__: "web"
+        metadata:
+            __type__: "metadata"
+            wms_title: "TODO"
+            wms_onlineresource: "TODO"
+            wms_enable_request: "GetMap GetFeatureInfo GetCapabilities GetLegendGraphic DescribeLayer GetStyles"
+            wms_srs: "TODO"
+            __comments__:
+                wms_title: "# sets the title of the WMS to show in WMS Capabilities"
+                wms_onlineresource: "# online resource URL"
+                wms_enable_request: "# this can also be set to \"*\""
+                wms_srs: "# if epsg projections are set on the map this is not required"
+layers:
+    name: "TODO"
+    projection: ["init=epsg:9999"]
+    __comments__:
+        projection: "# TODO update this value to the LAYER's projection"
+    metadata:
+        __type__: "web"
+        wms_title: "TODO"
+        __comments__:
+            wms_title: "# this is to do something"
+
+# classes:
+#     name: "hello"
+# styles:
+#     name: "hello"
